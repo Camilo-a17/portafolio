@@ -1,5 +1,5 @@
 # Mi Portafolio
-Proyecto de protafolio #Alura-Challenge
+
 ## Secciones
 * Sobre mi 
 * Skills
@@ -14,8 +14,5 @@ Proyecto de protafolio #Alura-Challenge
 * Css
 * Javascript
 
----
-  
-[Camilo Arrieta](https://github.com/Camilo-a17) 😊
+ [Camilo Arrieta](https://github.com/Camilo-a17) 😊
 </div>
-
