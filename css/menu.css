@@ -1,0 +1,99 @@
+header{
+	background-color: #F5F5F5;
+}
+
+.menu{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 2em 0;
+}
+
+.logo {
+	height: 50px;
+	margin-right: 20px;
+	max-width: 200px;
+}
+
+.menu__nombre{
+	color: rgb(104, 52, 52);
+	font-weight: 600;
+}
+
+.enlaces{
+	display: flex;
+}
+
+.enlaces a{
+	text-decoration: none;
+	color: #000000;
+}
+
+.enlaces a{
+	margin-right: 25px;
+}
+
+.menu__nombre::before{
+	content: '🚀';
+}
+
+.enlaces li:last-child{
+	font-weight: 700;
+	color: #584b4b;
+}
+
+.menu a:hover{
+	color: #BB8FCE;
+}
+
+/* ------------------------------------ */
+/* ----- Responsive para Mobiles ------ */
+/* ------------------------------------ */
+
+@media only screen and (max-width: 767px){
+
+	/* ======= MENU ======== */
+
+	.menu{
+		padding: 20px 10px;
+	}
+	
+	.menu__nombre,
+	.nav-enlaces{
+		font-size: 14px;
+	}
+
+	.menu a:not(.email){
+		display: none;
+	}
+
+	.enlaces a {
+    margin-right: 0px;
+	}
+
+}
+
+/* ------------------------------------ */
+/* ----- Responsive para Tablets ------ */
+/* ------------------------------------ */
+
+@media (min-width:768px) and (max-width:1024px){
+
+	/* ======= MENU ======== */
+	.menu{
+		padding: 40px 20px;
+	}
+	
+	.menu p, .menu nav{
+		font-size: 18px;
+	}
+
+	.menu a:not(.email){
+		display: none;
+	}
+
+	.enlaces a {
+    margin-right: 0px;
+	}
+
+}

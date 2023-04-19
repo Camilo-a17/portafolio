@@ -1,0 +1,60 @@
+#contenedor_sobremi{
+	background-color: #E8DAEF;
+}
+
+.sobremi{
+	padding: 50px  0;
+}
+
+.sobremi__titulo,
+.sobremi__texto{
+	margin-bottom: 20px;
+}
+
+.sobremi__titulo{
+	font-size: 25px;
+	font-weight: 600;
+	color: #494141;
+}
+
+.sobremi__texto{
+	width: 65%;
+	text-align: justify;
+	line-height: 20px;
+}
+
+.sobremi__firma{
+	width: 15%;
+}
+
+/* ------------------------------------ */
+/* ----- Responsive para Mobiles ------ */
+/* ------------------------------------ */
+
+@media only screen and (max-width: 767px){
+
+	.sobremi__texto{
+		width: 100%;
+	}
+
+	.sobremi__firma{
+		width: 30%;
+	}
+
+}
+
+/* ------------------------------------ */
+/* ----- Responsive para Tablets ------ */
+/* ------------------------------------ */
+
+@media (min-width:768px) and (max-width:1024px){
+
+	.sobremi__texto{
+		width: 100%;
+	}
+
+	.sobremi__firma{
+		width: 20%;
+	}
+
+}

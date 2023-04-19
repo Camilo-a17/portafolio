@@ -1,0 +1,139 @@
+.contenedor__banner{
+	background-color: #F5F5F5;
+}
+
+.banner{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 30px 0;
+}
+
+.banner__informacion{
+	width: 70%;
+}
+
+.banner__img{
+	width: 30%;
+	display: flex;
+	justify-content: center;
+}
+
+.banner__img img{
+	width: 75%;
+	border-radius: 30rem;
+}
+
+.banner__informacion{
+	display: flex;
+	flex-direction: column;
+}
+
+.banner__informacion__titulo,
+.banner__informacion__texto,
+.banner__informacion__enlaces{
+	margin-bottom: 20px;
+}
+
+.banner__informacion__titulo{
+	font-size: 3rem;
+	font-weight: 700;
+	color: #494141;
+}
+
+.banner__informacion__texto{
+	font-size: 20px;
+	line-height: 25px;
+}
+
+.banner__informacion__enlaces{
+	display: flex;
+	flex-direction: row;
+}
+
+.banner__informacion__enlaces li::after{
+	content: '🡥';
+	color: #BB8FCE;
+}
+
+.banner__informacion__enlaces li{
+	margin: 0 20px 0 0;
+}
+
+.banner__informacion__enlaces a:hover{
+	color: #BB8FCE;
+}
+
+.banner__informacion__enlaces a{
+	text-decoration: none;
+	color: #000000;
+}
+
+/* ------------------------------------ */
+/* ----- Responsive para Mobiles ------ */
+/* ------------------------------------ */
+
+@media only screen and (max-width: 767px){
+
+	.banner{
+		flex-direction: column-reverse;
+		padding: 20px 0;
+	}
+
+	.banner__informacion{
+		width: 100%;
+	}
+	
+	.banner__img{
+		width: 100%;
+		margin-bottom: 1.5rem;
+	}
+	
+	.banner__img img{
+		width: 30%;
+	}
+
+	.banner__informacion__titulo{
+		font-size: 1.7rem;
+		line-height: 2rem;
+		text-align: center;
+	}
+
+	.banner__informacion__texto{
+		text-align:justify;
+		font-size: 16px;
+		line-height: 20px;
+	}
+
+	.banner__informacion__enlaces{
+		flex-direction: row;
+	}
+
+	.banner__informacion__enlaces li{
+		margin: 0 10px 0 0;
+		font-size: 14px;
+	}
+
+}
+
+/* ------------------------------------ */
+/* ----- Responsive para Tablets ------ */
+/* ------------------------------------ */
+
+@media (min-width:768px) and (max-width:1024px){
+
+	.banner{
+		padding: 20px 0 40px 0;
+	}
+
+	.banner__informacion__titulo{
+		font-size: 1.7rem;
+		line-height: 2rem;
+	}
+
+	.banner__img img{
+		width: 82%;
+		border-radius: 30rem;
+	}
+
+}
